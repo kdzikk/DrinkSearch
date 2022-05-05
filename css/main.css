@@ -1,1 +1,107 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #e0e0e0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+	width: 800px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 20px #000;
+	box-shadow: 0 0 20px #000;
+}
+
+.wrapper .header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	position: relative;
+	height: 300px;
+	padding: 20px 40px;
+	font-family: 'Dancing Script', cursive;
+	background-image: url(/1/img/pistachios-g4f9cecd5b_1920.jpg);
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+
+.wrapper .shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: -1;
+}
+
+.wrapper h1 {
+	font-size: 50px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.wrapper input {
+	width: 100%;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	border-radius: 6px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.wrapper .drink-list {
+	height: auto;
+	min-height: 688.27px;
+	padding: 20px 40px;
+}
+
+.wrapper .drink-list h2 {
+	font-size: 26px;
+	padding: 20px 0;
+}
+
+.wrapper .drink-list ul {
+	list-style: none;
+}
+
+.wrapper .drink-list ul li {
+	padding: 8px 30px;
+	font-size: 22px;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.wrapper .drink-list ul li:last-child {
+	border-bottom: none;
+}
+
+.wrapper .hide {
+	display: none;
+}
+/*# sourceMappingURL=main.css.map */
